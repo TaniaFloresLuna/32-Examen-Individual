@@ -1,7 +1,3 @@
-/*Header*/
-
-/*Footer*/
-
 /*Paddin*/
 .pd-5{
 	padding: 5%;
@@ -26,9 +22,11 @@
 
 /*Background*/
 .bg-gray{
-	background-color: gray;
+	background-color: #ccccb3;
 }
-
+.bg-pink{
+	background-color: pink;
+}
 
 /*Color texto*/
 .text-white{
@@ -60,3 +58,4 @@
 .playball{
 	font-family: 'Playball', cursive;
 }
+

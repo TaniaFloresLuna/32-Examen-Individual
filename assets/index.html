@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale-=1.0, maximum-scale-=1.0, minimus-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">	
 	<link rel="stylesheet" type="text/css" href="css/commons.css">
@@ -12,7 +13,117 @@
 	<title>Examen Individual</title>
 </head>
 <body>
-	
+	<div class="container-fluid"><!--Comienza Contenedor de la página-->
+		<div class="row bg-gray">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><!--Mensaje de bienvenida-->
+				<h5 class="text-gray pacific pd-5">Default Welcome Msg!</h5>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<div class="dropdown"><!--Idioma desplegable-->
+					<button class="btn dropdown-toggle mg-5" id="menu1" type="button" data-toggle="dropdown"><img src="images/flag1.png" alt="Eng"> Language
+					<span class="caret"></span></button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+							<img src="images/flag2.png" alt="fra">Français
+						</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<div class="dropdown"><!--Pago desplegable-->
+					<button class="btn dropdown-toggle mg-5" id="menu2" type="button" data-toggle="dropdown"><i class="fa fa-usd" aria-hidden="true"></i>Currency
+					<span class="caret"></span></button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+							<i class="fa fa-euro fa-lg" aria-hidden="true"></i>Euro
+						</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<button type="button" class="btn mg-5">My account</button><!--sesión-->
+					<div class="modal fade" id="myModal" role="dialog"><!-- Modal -->
+						<div class="modal-dialog">
+							<div class="modal-content"><!-- Modal content-->
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;
+									</button>
+								</div>
+								<div class="modal-body">
+									<form role="form">
+										<div class="form-group">
+											<label for="usrname"><span class="glyphicon glyphicon-user"></span>E-mail</label>
+											<input type="text" class="form-control" id="mail" placeholder="Correo electronico">
+										</div>
+										<div class="form-group">
+											<label for="psw"><span class="glyphicon glyphicon-eye-open"></span>Contraseña</label>
+											<input type="text" class="form-control" id="psw" placeholder="***">
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox" value="" checked>Recordarme</label>
+										</div>
+										<button type="submit" class="btn btn-success btn-block"> Entrar</button>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+									<p>¿No eres mienbro? <a href="#">Registrate</a></p>
+									<p>¿Olvidaste la <a href="#">Contraseña?</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>		
+		<header><!--Enacbezado sencillo-->
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<i class="fa fa-clock-o fa-5x"></i>
+						<h4 class="dancing text-gray">Opening Time</h4>
+					
+					<p class="small text-gray">9:00 AM-!0:00 PM</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<img src="images/logo.png" alt="Logo" class="mg-10 img-responsive">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<form>
+						<input type="search" name="googlesearch" class="mg-10" placeholder="buscar">
+						<input type="submit">
+					</form>		
+				</div>
+			</div>
+		</header>
+		<section><!--Navegador-->
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-10 col-xs-10"><!--Menu página-->
+					<div role="tabpanel">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation"><a href="index.html" class="bg-pink">HOME</a></li>
+							<li role="presentation"><a href="contact.html">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><!--Carrito-->
+					<ul class="nav nav-tabs">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">My cart<span class="caret"></span>	
+							</a>
+							<ul class="dropdown-menu">
+								<img src="images/cart-2.jpg" alt="car">
+								<img src="images/cart-1.jpg" alt="car">
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+			
+		
+	</div><!--Contenedor de la página-->
 
 	<!--Código JS-->
 	<script src="js/jquery.js"></script>
