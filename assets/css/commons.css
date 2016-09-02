@@ -1,0 +1,62 @@
+/*Header*/
+
+/*Footer*/
+
+/*Paddin*/
+.pd-5{
+	padding: 5%;
+}
+.pd-10{
+	padding: 10%;
+}
+.pd-t{
+	padding-top: 7%;
+}
+.pd-l{
+	padding-left: 15%;
+}
+
+/*Margin*/
+.mg-5{
+	margin: 5%;
+}
+.mg-10{
+	margin: 10%;
+}
+
+/*Background*/
+.bg-gray{
+	background-color: gray;
+}
+
+
+/*Color texto*/
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: gray;
+}
+.text-pink{
+	color: pink;
+}
+
+/*Fuentes*/
+.pacific{
+	font-family: 'Pacifico', cursive;
+}
+.dancing{
+	font-family: 'Dancing Script', cursive;
+}
+.Yellowtail{
+	font-family: 'Yellowtail', cursive;
+}
+.satisfy{
+	font-family: 'Satisfy', cursive;
+}
+.Great{
+	font-family: 'Great Vibes', cursive;
+}
+.playball{
+	font-family: 'Playball', cursive;
+}
