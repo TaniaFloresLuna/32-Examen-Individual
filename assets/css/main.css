@@ -1,0 +1,17 @@
+.image-bg{
+	background-image: url(../images/slider1.jpg);
+	background-size: cover;
+	height: 450px;
+}
+.borde{
+	border: 7px solid white;
+}
+
+
+/*Media*/
+@media (max-width: 768px){
+	.image-bg{
+		background-size: cover; 
+		height: 250px;
+	}
+}
